@@ -38,8 +38,8 @@ const settings = {
     : true,
 
   AUTO_COMPLETE_TASKS: process.env.AUTO_COMPLETE_TASKS
-    ? process.env.AUTO_COMPLETE_TASKS.toLowerCase() === "true"
-    : true,
+    ? process.env.AUTO_COMPLETE_TASKS.toLowerCase() === "false"
+    : false,
 
   AUTO_SPIN: process.env.AUTO_SPIN
     ? process.env.AUTO_SPIN.toLowerCase() === "true"
